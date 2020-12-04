@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translation APP</title>
+    <style>
+        textarea {
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+            height: 40px;
+            width: 400px;
+        }
+    </style>
 </head>
 <body>
     <h1>Hii welcomes to Banana App!!!</h1>
+    <textarea id="inputTextarea" placeholder="Put your message here...."></textarea>
+    <button id="btnTranslate">Translate</button>
+    <button id="btnRefresh">Refresh</button>
+    <p>Translated message will be shown here 👇</p>
+    <textarea id="outputTextarea"></textarea>
+    <script src="/app.js" type="text/javascript"></script>
 </body>
 </html>
