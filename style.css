@@ -23,10 +23,10 @@ textarea {
 
 
 header {
-    background-image: url("/images/min3.gif");
+    background-image: url("/images/min4.gif"),url("/images/min5.gif");
     background-size: 200px 200px;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left top,right bottom;
     margin-top: 20px;
     padding: 4rem;
     text-align: center;
