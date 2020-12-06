@@ -12,7 +12,7 @@ function constructURL(text) {
 
 function errorHandler(error){
     console.log("Error Occured: " + error);
-    alert("Some Error has occured please try after sometime!!!!");
+    alert("Maximum Limit Exceeded. Please try again after an hour.");
 }
 
 function clickHandler() {

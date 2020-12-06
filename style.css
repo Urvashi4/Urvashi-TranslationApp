@@ -33,6 +33,12 @@ header {
     font-family: 'Permanent Marker', cursive;
 }
 
+.header-img{
+    max-width: 20px;
+    margin: 100px;
+    display: block;
+}
+
 footer {
     background-color: #FBBF24;
     padding: 3rem 2rem 0rem 2rem;
