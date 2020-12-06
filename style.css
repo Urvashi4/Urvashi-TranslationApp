@@ -1,33 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 :root {
     --primary-color : #FACC15;
+    --blue-color: #0284C7;
+    --gray-color: #737373;
 }
 
 textarea {
     display: block;
     margin: 20px;
     padding: 2rem;
-    height: 50px;
-    width: 400px;
+    height: 40px;
+    width: 450px;
     background-color: var(--primary-color);
     color: black;
- 
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    max-width: 450px;
+    max-height: 60px;
 }
 
 
 header {
-    background-image: url("/images/mini1.gif");
-    background-size: auto;
+    background-image: url("/images/min3.gif");
+    background-size: 200px 200px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     margin-top: 20px;
-    margin-bottom: 0px;
-    padding:4rem 2rem;
+    padding: 4rem;
     text-align: center;
-    border-bottom-left-radius: 80%;
-    border-bottom-right-radius: 80%;
-    border-top-left-radius: 80%;
-    border-top-right-radius: 80%;
+    font-family: 'Permanent Marker', cursive;
 }
 
 footer {
@@ -36,12 +39,6 @@ footer {
     text-align: center;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-}
-
-
-p {
-    color: balck
-    padding-left: 1rem;
 }
 
 .space {
@@ -54,6 +51,42 @@ body {
 }
 
 .header-heading {
-    color: #2563EB;
+    color: black;
+}
+
+main p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: medium;
+    padding-left: 1.5rem;
+}
+
+main {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+
+main div {
+    padding-left: 1.5rem;
+}
+
+main p span {
+    display: inline-block;
+    background-color: black;
+}
+
+button {
+    background-color: var(--blue-color);
+    color: white;
+    margin: 2px;
+    padding: 1rem 1rem;
+    border-radius: 20%;
+    font-size: small;
+    font-family: 'Kalam', cursive; 
+    border: 1px solid black;
+}
+
+button:hover {
+    color: var(--primary-color);
 }
 
